@@ -17,6 +17,7 @@ export default class HelloWorldWebPart extends BaseClientSideWebPart<IHelloWorld
 
   public render(): void {
     this.domElement.innerHTML = `
+    New
       <div class="${ styles.helloWorld}">
         <div class="${ styles.container}">
           <div class="${ styles.row}">
